@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3CEA3A2AE7CF6E0038D2A9 /* AppearencViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CEA392AE7CF6E0038D2A9 /* AppearencViewController.swift */; };
+		FA3CEA3C2AE7CFAD0038D2A9 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3CEA3B2AE7CFAD0038D2A9 /* InfoViewController.swift */; };
 		FA6BFD5A2AE6904800889DC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BFD592AE6904800889DC1 /* AppDelegate.swift */; };
 		FA6BFD5C2AE6904800889DC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BFD5B2AE6904800889DC1 /* SceneDelegate.swift */; };
 		FA6BFD5E2AE6904800889DC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BFD5D2AE6904800889DC1 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA3CEA392AE7CF6E0038D2A9 /* AppearencViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearencViewController.swift; sourceTree = "<group>"; };
+		FA3CEA3B2AE7CFAD0038D2A9 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		FA6BFD562AE6904800889DC1 /* CalendarDayFinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarDayFinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6BFD592AE6904800889DC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA6BFD5B2AE6904800889DC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3CEA362AE7C7820038D2A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BFD5D2AE6904800889DC1 /* ViewController.swift */,
+				FA3CEA392AE7CF6E0038D2A9 /* AppearencViewController.swift */,
+				FA3CEA3B2AE7CFAD0038D2A9 /* InfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA3CEA372AE7C7A10038D2A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BFD5F2AE6904800889DC1 /* Main.storyboard */,
+				FA6BFD642AE6904C00889DC1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA3CEA382AE7C7C20038D2A9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FA6BFD592AE6904800889DC1 /* AppDelegate.swift */,
+				FA6BFD5B2AE6904800889DC1 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		FA6BFD4D2AE6904800889DC1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +88,10 @@
 		FA6BFD582AE6904800889DC1 /* CalendarDayFinderApp */ = {
 			isa = PBXGroup;
 			children = (
-				FA6BFD592AE6904800889DC1 /* AppDelegate.swift */,
-				FA6BFD5B2AE6904800889DC1 /* SceneDelegate.swift */,
-				FA6BFD5D2AE6904800889DC1 /* ViewController.swift */,
-				FA6BFD5F2AE6904800889DC1 /* Main.storyboard */,
+				FA3CEA382AE7C7C20038D2A9 /* AppDelegate */,
+				FA3CEA362AE7C7820038D2A9 /* Controller */,
+				FA3CEA372AE7C7A10038D2A9 /* View */,
 				FA6BFD622AE6904C00889DC1 /* Assets.xcassets */,
-				FA6BFD642AE6904C00889DC1 /* LaunchScreen.storyboard */,
 				FA6BFD672AE6904C00889DC1 /* Info.plist */,
 			);
 			path = CalendarDayFinderApp;
@@ -140,7 +170,9 @@
 			files = (
 				FA6BFD5E2AE6904800889DC1 /* ViewController.swift in Sources */,
 				FA6BFD5A2AE6904800889DC1 /* AppDelegate.swift in Sources */,
+				FA3CEA3A2AE7CF6E0038D2A9 /* AppearencViewController.swift in Sources */,
 				FA6BFD5C2AE6904800889DC1 /* SceneDelegate.swift in Sources */,
+				FA3CEA3C2AE7CFAD0038D2A9 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
